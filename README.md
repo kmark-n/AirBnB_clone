@@ -10,4 +10,4 @@ The first piece is to manipulate a powerful storage system. This storage engine 
 
 The abstraction will also allow the changing of storage easily without updating all of our codebase.
 The console will be a tool to validate this storage engine.
-
+![image](https://github.com/kmark-n/AirBnB_clone/assets/117804697/4725971d-3fa3-4710-8b1d-cfe18dc2e163)
