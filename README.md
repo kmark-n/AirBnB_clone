@@ -11,3 +11,17 @@ The first piece is to manipulate a powerful storage system. This storage engine 
 The abstraction will also allow the changing of storage easily without updating all of our codebase.
 The console will be a tool to validate this storage engine.
 ![image](https://github.com/kmark-n/AirBnB_clone/assets/117804697/4725971d-3fa3-4710-8b1d-cfe18dc2e163)
+
+a.) models directory - contains all classes used for the entire project. In a OOP(object oriented programming) project, a class called 'model' is the representation of an object/instance.
+
+b.) tests directory - will contain all unit tests.
+
+c.) console.py file - This file is the entry point of our command line interpreter.
+
+d.) models/base_model.py file - This is the base class of all our models. It contains common elements:
+
+attributes: "id", "created_at", and "updated_at"
+methods: "save()" and "to_json()"
+
+e.) models/engine directory - this contains all storage classes(using the same prototype.).
+For the moment i only have: file_storage.py
